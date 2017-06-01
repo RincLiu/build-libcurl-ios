@@ -65,7 +65,7 @@ build_for_arch armv7 armv7-apple-darwin /Applications/Xcode.app/Contents/Develop
 #	-arch armv7 ${TMP_DIR}/armv7/lib/libcurl.a \
 #	-output ${TMP_DIR}/lib/device/libcurl.a -create
 	
-mkdir -p ${TMP_DIR}/lib/#universal
+mkdir -p ${TMP_DIR}/lib/
 ${DEVROOT}/usr/bin/lipo \
 #	-arch i386 ${TMP_DIR}/i386/lib/libcurl.a \
 #	-arch x86_64 ${TMP_DIR}/x86_64/lib/libcurl.a \
