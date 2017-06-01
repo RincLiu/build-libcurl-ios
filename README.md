@@ -15,8 +15,7 @@ Usage
 curl -O https://curl.haxx.se/download/curl-7.54.0.tar.gz
 tar xf curl-7.54.0.tar.gz
 cd curl-7.54.0
-curl https://raw.githubusercontent.com/sinofool/build-libcurl-ios/master/build_libcurl_dist.sh |bash
-......
+curl https://raw.githubusercontent.com/RincLiu/build-libcurl-ios/master/build_libcurl_dist.sh |bash
 ```
 Find the result libcurl-ios-dist on your desktop.
 
