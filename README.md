@@ -1,6 +1,6 @@
-libcurl for iOS
+cURL-iOS
 =================
-Build libcurl for iOS development.  
+Build cURL for iOS.  
 This script will generate static library for armv7 armv7s arm64 i386 and x86_64.  
 Bitcode support.  
 OpenSSL and Darwin native ssl support.  
